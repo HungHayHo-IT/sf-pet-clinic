@@ -1,12 +1,22 @@
 package nguyenhung.springframework.sf_pet_clinic.Controllers;
 
+import nguyenhung.springframework.sf_pet_clinic.sf_pet_clinic.services.OwnerService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class OwnerController {
+    private final OwnerService ownerService;
+    @Autowired
+    public OwnerController(OwnerService ownerService) {
+        this.ownerService = ownerService;
+    }
+
     @RequestMapping({"/owners","/owners/index","/owners/index.html"})
-    public String listOwners(){
-        return "owners/index";
+    public String listOwners(Model model){
+        model.addAttribute("owners", ownerService.findAll());
+        return "owner/index";
     }
 }
