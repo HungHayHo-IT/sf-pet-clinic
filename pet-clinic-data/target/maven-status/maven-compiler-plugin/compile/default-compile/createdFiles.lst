@@ -1,3 +1,4 @@
+nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\PetTypeService.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\map\VetServiceMap.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\Person.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\Pet.class
@@ -5,9 +6,14 @@ nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\BaseEntity.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\CrudService.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\map\OwnerServiceMap.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\PetType.class
+nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\Visit.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\OwnerService.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\PetService.class
+nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\SpecialtyService.class
+nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\Speciality.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\Vet.class
+nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\map\SpecialityMapService.class
+nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\map\PetTypeMapService.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\model\Owner.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\map\AbstractMapService.class
 nguyenhung\springframework\sf_pet_clinic\sf_pet_clinic\services\map\PetServiceMap.class

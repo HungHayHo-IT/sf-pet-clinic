@@ -1,4 +1,21 @@
 package nguyenhung.springframework.sf_pet_clinic.sf_pet_clinic.model;
 
-public class Vet extends Person{
+import java.util.HashSet;
+import java.util.Set;
+
+public class Vet extends Person {
+
+    private Set<Speciality> specialities = new HashSet<>();
+
+    public Vet() {
+        this.specialities = new HashSet<>();
+    }
+
+    public Set<Speciality> getSpecialities() {
+        return specialities;
+    }
+
+    public void setSpecialities(Set<Speciality> specialities) {
+        this.specialities = specialities;
+    }
 }
